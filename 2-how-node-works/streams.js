@@ -6,7 +6,7 @@ server.on("request", (req, res) => {
   // then we sendnig the data to the client
   // fs.readFile("test-file.txt", (err, data) => {
   //   if (err) console.log(err);
-  //   res.end(data);W
+  //   res.end(data);
   // });
   // Solution 2 *reading chunk by chunk*
   // streaming the data to the client
